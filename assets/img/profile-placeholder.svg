@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photograph placeholder</title>
+  <desc id="desc">A neutral silhouette, to be replaced with Lionnel Mazuba's photograph.</desc>
+  <rect width="480" height="480" fill="#e8edf0"/>
+  <circle cx="240" cy="174" r="73" fill="#7c8d99"/>
+  <path d="M85 432c0-102 62-167 155-167s155 65 155 167" fill="#7c8d99"/>
+</svg>
