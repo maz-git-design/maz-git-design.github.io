@@ -1,16 +1,31 @@
 {% include base_path %}
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 
 {% include seo.html %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<link
+  href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"
+  type="application/atom+xml"
+  rel="alternate"
+  title="{{ site.title }} Feed"
+/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css" />
+
+<!-- Google Tag Manager -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=G-3W2ZW6WNHJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || []
+  function gtag() {
+    dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+</script>
